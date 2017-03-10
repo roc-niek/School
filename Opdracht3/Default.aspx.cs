@@ -22,7 +22,7 @@ public partial class _Default : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         DateTime datum = KalVerjaardag.SelectedDate;
-        Label1.Text = "U heeft de onderstaande datum geselecteerd:<br><br> " + datum;
+        Label1.Text = "U heeft de onderstaande datum geselecteerd:<br><br> " + datum.ToShortDateString();
         Label2.Text = "Uw leeftijd is:<br><br>" + getLeeftijd(datum);
     }
 

@@ -11,7 +11,7 @@
     <div>
     
     </div>
-        <asp:Calendar ID="KalVerjaardag" runat="server" OnSelectionChanged="KalVerjaardag_SelectionChanged" SelectedDate="1995-01-01"></asp:Calendar>
+        <asp:Calendar ID="KalVerjaardag" runat="server" OnSelectionChanged="KalVerjaardag_SelectionChanged" SelectedDate="1995-01-01" VisibleDate="1995-01-01"></asp:Calendar>
         <p>
             <asp:Label ID="Label1" runat="server" Text=" "></asp:Label>
         </p>
